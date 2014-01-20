@@ -19,7 +19,7 @@ $(call inherit-product, device/samsung/hltetmo/full_hltetmo.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/omni/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Inherit from our omni product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
